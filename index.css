@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #9747ed 0%, #9747ed 100%);
+}
+.fondo{
+    background-color:#000000 ;
+}
+.card {
+    border-radius: 15px;
+    border: none;
+    max-width: 400px;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #9747ed , #9747ed );
+    border: none;
+}
+
+.btn-success:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.btn-outline-success {
+    border: 2px solid #9747ed ;
+    color: #9747ed ;
+}
+
+.btn-outline-success:hover {
+    background-color: #9747ed ;
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+    color: #9747ed ;
+    font-size: 27px;
+}
+
+p {
+    color: #ffffff;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        padding: 2rem !important;
+    }
+}
